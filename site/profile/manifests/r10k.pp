@@ -3,7 +3,6 @@ class profile::r10k {
     remote => 'https://github.com/NathanAbbott/control-repo',
   }
   class {'r10k::webhook::config':
-    use_ncollective => false,
     enable_ssl      => false,
   }
   class {'r10k::webhook':
