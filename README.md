@@ -1,2 +1,2 @@
 # control-repo
-puppet control reposity 
+puppet control repository 
